@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Catalog:etc/product_types.xsd">
+    <type name="book" label="Book Product Type" modelInstance="Magelearn\BookProductType\Model\Product\Type\Bookproducttype"
+    				  indexPriority="0" sortOrder="80" isQty="true">
+    	<customAttributes>
+            <attribute name="refundable" value="true"/>
+        </customAttributes>
+    	<priceModel instance="Magelearn\BookProductType\Model\Product\Price" />
+    </type>
+    <composableTypes>
+        <type name="book" />
+    </composableTypes>
+</config>

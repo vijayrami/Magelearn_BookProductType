@@ -1,0 +1,21 @@
+{
+    "name": "magelearn/magento2-book-product-type",
+    "description": "Custom product types for magento 2",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "vijay rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "require": {},
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\BookProductType\\": ""
+        }
+    }
+}

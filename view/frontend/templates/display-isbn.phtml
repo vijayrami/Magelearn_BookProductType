@@ -1,0 +1,9 @@
+<?php
+$product = $block->getProduct();
+$product_type = $product->getTypeId();
+?>
+<?php if($product_type == 'book'): ?>
+<div class="isbn">
+    <label class="label"><span><strong><?= __('ISBN: ')?></strong><?= $block->escapeHtml($product->getIsbn()) ?></span></label>
+</div>
+<?php endif; ?>
