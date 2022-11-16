@@ -5,6 +5,6 @@ Extension to create a new Custom Product Type in Magento2
 
 -- Modify Price For Custom Product type.
 
--- Modify catalog category view and catalog product view only for custom product type.
+-- Modify `catalog category view` and `catalog product view` only for custom product type.
 
 [![image-2.png](https://i.postimg.cc/cJBCfwhJ/image-2.png)](https://postimg.cc/JytRLy9w)
